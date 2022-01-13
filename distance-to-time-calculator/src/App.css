@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.kilometers{
+  display:inline-block;
+  position: relative;
+    /* margin-left: 2rem; */
+    /* left: 0; */
+  }
+.kilometers input{
+  padding-left:15px;
+    /* width: 462px; */
+    word-break: break-all;
+  }
+.kilometers:before {
+  position: absolute;
+    content:"km";
+    left:155px;
+  top:0.1rem;
+   }
+
+   .seconds{
+    display:inline-block;
+    position: relative;
+      /* margin-left: 2rem; */
+      /* left: 0; */
+    }
+  .seconds input{
+    padding-left:15px;
+      width: 462px;
+      word-break: break-all;
+    }
+  .seconds:before {
+    position: absolute;
+      content:"seconds";
+      left:180px;
+    top:0.1rem;
+     }
+li {
+list-style: none;
+}
